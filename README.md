@@ -1,4 +1,4 @@
-# Doctionary web app
+# Dictionary web app
 
 This is a dictionary built with React, Typescript and Tailwind CSS. This dictionary web app was built using the  [Free Dictionary API](https://dictionaryapi.dev/) .
 
