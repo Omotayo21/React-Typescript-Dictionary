@@ -1,30 +1,23 @@
-# E-commerce App
+# Doctionary web app
 
-This is a shopping app built with React, Tailwind CSS, Redux, Firebase, Material ui and Framer Motion. It provides authentication and real-time storage of products in a Firebase database.
+This is a dictionary built with React, Typescript and Tailwind CSS. This dictionary web app was built using the  [Free Dictionary API](https://dictionaryapi.dev/) .
 
 ## Features
+Users should be able to:
 
-- **Authentication:**
-  - Users can sign up and log in securely.
-  - User sessions are managed using Firebase Authentication.
-
-- **Product Management:**
-  - Products are stored in a real-time database.
-  - CRUD operations for managing products.
-  - Notifications using react-toastify to notify you of your actions when you add or remove items from your cart.
-
-- **User Interface:**
-  - Responsive design using Tailwind CSS.
-  - Animated transitions with Framer Motion.
-  - Notifications using react-toastify.
+- Search for words using the input field
+- See the Free Dictionary API's response for the searched word
+- See a form validation message when trying to submit a blank form
+- Play the audio file for a word when it's available
+  - Switch between light and dark themes
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
 ## Technologies Used
 
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Redux](https://redux.js.org/)
-- [Firebase](https://firebase.google.com/)
-- [Framer Motion](https://www.framer.com/motion/)
+
 
 
 ## Getting Started
@@ -32,7 +25,7 @@ This is a shopping app built with React, Tailwind CSS, Redux, Firebase, Material
 1. **Clone the Repository:**
    ```bash
 
-   git clone https://github.com/your-username/E-commerce-app.git
+   git clone https://github.com/your-username/React-Typrscript-Dictionary.git
    cd E-commerce-app
 
 2. **Install Dependencies:**
@@ -41,12 +34,8 @@ This is a shopping app built with React, Tailwind CSS, Redux, Firebase, Material
 
   npm install 
 
-3. **Set Up Firebase:**
 
-   Create a Firebase project and set up authentication and a real-time database.
-   Update Firebase configuration in your app. 
-   
-4. **Run the App:**
+3. **Run the App:**
 
   ```bash
 
@@ -59,9 +48,6 @@ Open http://localhost:3000 in your browser.
 ## Folder Structure
 src/: Source code of the application.
 components/: Reusable React components.
-config/: Configuration files (Firebase config, etc.).
-pages/: Top-level components representing pages.
-store/: Redux store setup.
 
 ## Contributing
 Contributions are welcome! If you find a bug or have a feature request, please open an issue. If you want to contribute, please fork the repository and create a pull request.
