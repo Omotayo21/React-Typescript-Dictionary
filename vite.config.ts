@@ -7,9 +7,5 @@ export default defineConfig({
   resolve : {
      extensions : ['.ts', '.tsx', '.js', '.jsx', ',json'],
   },
-  build: {
-    rollupOptions: {
-      external: ['/src/main.tsx'], // Adjust this according to your project structure
-    },
-  },
+  
 })
