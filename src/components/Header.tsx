@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <>
-      <div className=" sm:ml-[16rem] lg:ml-[68rem] mb-8">
+      <div className=" sm:ml-[16rem] lg:ml-[68rem] mb-6">
         <div className="flex items-center gap-6">
           <label
             htmlFor="toggle"
