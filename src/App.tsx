@@ -30,7 +30,7 @@ const App = () => {
   };
 
   return (
-    <div className={` min-h-[100dvh] bg-${dark ? "black" : "white"} mt-2 sm: `}>
+    <div className={` min-h-[100dvh] bg-${dark ? "black" : "white"} sm: `}>
       <Header />
       <div className="flex flex-col items-center justify-center">
         <div className="flex flex-row items-center justify-center">
