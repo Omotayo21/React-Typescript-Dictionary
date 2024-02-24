@@ -69,6 +69,13 @@ const DictionaryProvider = ({ children }: { children: React.ReactNode }) => {
 
     fetchData();
   }, [inputValue]);
+   useEffect(() => {
+    const darkModeMediaQuery = window.matchMedia(
+      "(prefers-color-scheme: dark)",
+    );
+
+    setDark(darkModeMediaQuery.matches);
+  }, []);
 
   return (
     <DictionaryContext.Provider
