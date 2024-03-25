@@ -34,7 +34,7 @@ function WordHeading() {
       <div className=" flex sm:ml-4 sm:px-0 items-center lg:justify-between pt-[4.5rem] lg:gap-x-12">
         <div>
           <h1
-            className={`sm:text-[2.9rem] lg:text-[6.4rem] font-bold transition-all duration-500 ${
+            className={`sm:text-[2.4rem] lg:text-[6.4rem] font-bold transition-all duration-500 ${
               dark ? "text-white" : "text-2D2D2D"
             } `}
           >
@@ -52,7 +52,7 @@ function WordHeading() {
           <button onClick={handlePlay}>
             <Play
               size={60}
-              className="text-white bg-purple-700 rounded-full p-2 mb-8 sm:ml-40"
+              className="text-white bg-purple-700 rounded-full p-2 mb-8 sm:ml-32"
             />
             <audio src={audio} ref={audioRef}></audio>
           </button>
